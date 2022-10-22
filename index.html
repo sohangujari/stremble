@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stremble</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script defer src="script/script.js"></script>
+  <link rel="icon" href="image/favicon.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+  <main id="main-holder">
+    <img src="image/stremble-logo.png" alt="Stremble" id="login-header">
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+    </div>
+    
+    <form id="login-form">
+      <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username" required="">
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password" required="">
+        <!-- <img src="image/eye.svg" width="" height="" class="eye-off" id="togglePassword"> -->
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  </main>
+</body>
+
+</html>
