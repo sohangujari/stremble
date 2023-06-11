@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "stremble" && password === "iamsecret@08") {
         alert("You have successfully logged in.");
-        location.href = "http://stremble.ml/home.html";
+        location.href = "https://sohangujari.github.io/Stremble/home";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
